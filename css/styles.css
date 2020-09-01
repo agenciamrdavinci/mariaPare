@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'BergenTextRegular';
+    src: url('../fonts/Bergen/BergenTextRegular.eot');
+    src: url('../fonts/Bergen/BergenTextRegular.eot') format('embedded-opentype'),
+         url('../fonts/Bergen/BergenTextRegular.woff2') format('woff2'),
+         url('../fonts/Bergen/BergenTextRegular.woff') format('woff'),
+         url('../fonts/Bergen/BergenTextRegular.ttf') format('truetype'),
+         url('../fonts/Bergen/BergenTextRegular.svg#BergenTextRegular') format('svg');
+}
+
+
+@font-face {
+    font-family: 'BergenTextSemiBold';
+    src: url('../fonts/Bergen/BergenTextSemiBold.eot');
+    src: url('../fonts/Bergen/BergenTextSemiBold.eot') format('embedded-opentype'),
+         url('../fonts/Bergen/BergenTextSemiBold.woff2') format('woff2'),
+         url('../fonts/Bergen/BergenTextSemiBold.woff') format('woff'),
+         url('../fonts/Bergen/BergenTextSemiBold.ttf') format('truetype'),
+         url('../fonts/Bergen/BergenTextSemiBold.svg#BergenTextSemiBold') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/Myriad/MyriadProRegular.eot');
+    src: url('../fonts/Myriad/MyriadProRegular.eot') format('embedded-opentype'),
+         url('../fonts/Myriad/MyriadProRegular.woff2') format('woff2'),
+         url('../fonts/Myriad/MyriadProRegular.woff') format('woff'),
+         url('../fonts/Myriad/MyriadProRegular.ttf') format('truetype'),
+         url('../fonts/Myriad/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.text-branco{
+    color: #fff;
+}
+
+
+
+.div1{
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('../images/slider.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative
+}
+
+.div1 .logo{
+    float: left;
+}
+
+.div1 .logo img {
+    width: 330px;
+}
+
+.div1 h1{
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    font-size: 85px;
+    font-family: 'MyriadProRegular';
+    font-weight: 100;
+}
+
+
+
+.div2{
+    height: 30vh;
+    overflow: hidden;
+    width: 33.3%;
+    float: left;
+    background-image: url('../images/bg-sobre.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative
+}
+
+.div2 img{
+    position: absolute;
+    top: 70px;
+    left: 120px;
+}
+.div2 p{
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 50%;
+    margin-left: 0px;
+    color: #fff;
+    font-size: 60px;
+    line-height: 56px;
+    font-family: 'BergenTextRegular';
+}
+
+
+.div2 p span{
+    font-size: 100px;
+    font-family: 'BergenTextSemiBold';
+}
+
+
+
+.div3{
+    height: 30vh;
+    overflow: hidden;
+    width: 33.3%;
+    float: left;
+    background-image: url('../images/bg-delivery.png');
+    background-size:cover;
+    position:relative
+}
+
+.div3 img{
+    position: absolute;
+    top: 70px;
+    left: 120px;
+}
+
+.div3 p{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 300px;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'BergenTextSemiBold';
+}
+
+
+.div4{
+    height: 30vh;
+    overflow: hidden;
+    width: 33.3%;
+    float: left;
+    background-image: url('../images/bg-encomendas.png');
+    background-size:cover;
+    position:relative
+}
+
+.div4 img{
+    position: absolute;
+    top: 70px;
+    left: 120px;
+}
+
+.div4 p{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 280px;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'BergenTextSemiBold';
+}
+
